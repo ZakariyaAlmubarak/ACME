@@ -1,0 +1,376 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+a {
+  text-decoration: none;
+}
+/* ---clearfix---- */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.topnav {
+  background-color: black;
+  color: #eee;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.btn {
+  background-color: #EB5757;
+  border-radius: 14px;
+  color: white;
+  padding: 5px 20px;
+  margin: 0 10px;
+}
+/* ------------------------------------------------ */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #EB5757;
+  height: 80px;
+  max-width: 100%;
+  
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-nav li a {
+  color: white;
+  margin: 0 20px;
+  font-size: 18px;
+  padding: 4px 10px;
+}
+li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+}
+li a:hover {
+  border-radius: 4px;
+  background-color: black;
+  padding: 4px 10px;
+}
+.shop-cart {
+  background-color: black;
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+/* ------------------------------- */
+.bg-image {
+  background-image: url(/images/pexels-photo-2994146\.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 550px;
+
+}
+.image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 15%;
+}
+
+.main-h1 {
+  color: #f9f9f9;
+  font-size: 62px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.p {
+  color: #f9f9f9;
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.shop-btn {
+  border: 1px solid #f9f9f9;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #f9f9f9;
+  padding: 8px 20px;
+}
+
+.shop-btn:hover {
+  background-color: #f9f9f9;
+  color: #333;
+}
+/* ------------------------------------------------------- */
+
+.support {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #333333;
+  width: 70%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.support h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.support p {
+  color: #333333;
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 70%;
+  margin-top: 20px !important;
+  margin: auto;
+}
+
+.column {
+  width: 30%;
+}
+
+.cards .first-card {
+  display: flex;
+  min-height: 330px;
+  justify-content: center;
+  align-items: center;
+}
+.first-card {
+
+  background-color: #333333;
+  color: #eee;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  }
+
+.cards p {
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+/* --------------------------------------- */
+
+.bg-image2 {
+  background-image: url(/images/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 550px;
+}
+.image2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10%;
+}
+.h2 {
+  color: #f9f9f9;
+  font-size: 45px;
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.para-p{
+  width: 40%;
+  font-size: 18px;
+  color: #f9f9f9;
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.bg-image2 .read-btn{
+  background-color: #f9f9f9;
+  color: #333;
+  font-weight: 700;
+  border: 1px solid #f9f9f9;
+  border-radius: 5px;
+  padding: 10px 25px;
+
+}
+
+.bg-image2 .read-btn:hover {
+  background-color: #EB5757;
+  border-color: #EB5757;
+  color: #eee;
+}
+
+/* --------------------------------------- */
+
+.content .shop {
+  margin: 20px 10px;
+  color: #333333;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 116.5px;
+  margin-bottom: 30px;
+  
+}
+
+.shop h2 {
+  font-size: 40px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.pro-name {
+  color: #222222;
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
+}
+.pro-price {
+  color: #222222;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+del {
+  color: red;
+}
+.deta-btn {
+  background-color: #EB5757;
+  color: #ffffff;
+  margin: auto;
+  padding: 5px 20px;
+  border-radius: 5px;
+  width: 30%;
+  }
+.deta-btn:hover {
+  background-color: black;
+}
+.view-all {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.view-all a{
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding: 5px 25px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.view-all a:hover {
+  background-color: #EB5757;
+}
+/* -------------------------------------------------- */
+
+.local {
+  position: relative;
+  display: flex;
+  min-height: 500px;
+  justify-content: flex-end;
+}
+
+.local-left{
+background-image: url(/images/cosm.jpg);
+background-position: 69% 80%;
+background-repeat: no-repeat;
+border-radius: 10px;
+  position:absolute;
+  left: 0%;
+  top: 6%;
+  right: auto;
+  bottom: 0%;
+  width: 30%;
+  height: 0px;
+  min-height: 440px;
+  border-radius: 10px;
+}
+.local-right {
+  display: flex;
+  width: 80%;
+  padding: 45px;
+  justify-content: flex-end;
+  background-color: #222;
+  color: #f9f9f9;
+  border-radius: 10px;
+}
+.txt {
+  width: 80%;
+  padding-right: 145px;
+  padding-left: 145px;
+}
+.txt h2 {
+  margin-top: 0;
+  font-size: 45px;
+  line-height: 1.2;
+}
+.main-footer {
+  margin-top: 30px;
+  background-color: #222;
+  min-height: 150px;
+  padding: 75px;
+  }
+.footer-link {
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+.footer-logo{
+  width: 30px;
+}
+
+.black-bg{
+  padding: 40px 0;
+  background-color: #222;
+}
+.black-bg h2 {
+color: #f9f9f9;
+font-size: 38px;
+}
+.section {
+  padding: 65px 0;
+  color: #333;
+  line-height: 1.6;
+}
+.section h2 {
+  font-size: 32px;
+  margin: 20px 0 10px;
+}
+.section p {
+margin: 0 0 10px;
+}
+.section h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
