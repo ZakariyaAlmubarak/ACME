@@ -1,12 +1,14 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 
 }
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
+
 .container {
   max-width: 1200px;
   margin-right: auto;
@@ -14,15 +16,18 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 }
+
 a {
   text-decoration: none;
 }
+
 /* ---clearfix---- */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
+
 .topnav {
   background-color: black;
   color: #eee;
@@ -30,8 +35,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
+
 .btn {
   background-color: #EB5757;
   border-radius: 14px;
@@ -39,6 +45,7 @@ a {
   padding: 5px 20px;
   margin: 0 10px;
 }
+
 /* ------------------------------------------------ */
 .nav {
   background-color: #EB5757;
@@ -51,24 +58,29 @@ a {
   align-items: center;
   min-height: 80px;
 }
+
 .main-nav {
   display: flex;
 }
+
 .main-nav a {
   color: white;
   margin: 0 20px;
   font-size: 18px;
   padding: 4px 10px;
 }
+
 .main-nav a:hover {
   border-radius: 4px;
   background-color: black;
   padding: 4px 10px;
 }
+
 .shop-cart {
   background-color: black;
   border-radius: 4px;
 }
+
 /* ------------------------------- */
 .bg-section {
   background-image: url(/images/pexels-photo-2994146.jpeg);
@@ -116,6 +128,7 @@ a {
   background-color: #f9f9f9;
   color: #333;
 }
+
 /* ------------------------------------------------------- */
 
 .support-section {
@@ -170,6 +183,7 @@ a {
   font-size: 18px;
   margin-bottom: 60px;
 }
+
 /* --------------------------------------- */
 
 .safe-section {
@@ -304,6 +318,7 @@ del {
   border-radius: 5px;
   text-transform: capitalize;
 }
+
 .all-btn:hover {
   background-color: #EB5757;
   color: #f9f9f9;
@@ -379,37 +394,45 @@ del {
   height: 30px;
   margin-left: 20px;
 }
+
 /*------------------ page covid-19 ------------------- */
-.black-bg{
+.black-bg {
   padding: 40px 0;
   background-color: #222;
 }
+
 .black-bg h2 {
-color: #f9f9f9;
-font-size: 38px;
+  color: #f9f9f9;
+  font-size: 38px;
 }
+
 .section {
   padding: 65px 0;
   color: #333;
   line-height: 1.6;
 }
+
 .section h2 {
   font-size: 32px;
   margin: 20px 0 10px;
 }
+
 .section p {
-margin: 0 0 10px;
+  margin: 0 0 10px;
 }
+
 .section h4 {
   font-size: 18px;
   margin: 10px 0;
 }
+
 /* ----------about.html css--------------- */
 .adventure-bg {
   background-image: url(/images/adv5e840df8e2c9cc7677e4f00e_felix-rostig-UmV2wr-Vbq8-unsplash.jpeg);
-  background-position:center;
-  background-size:cover;
+  background-position: center;
+  background-size: cover;
 }
+
 .adventure {
   min-height: 550px;
   display: flex;
@@ -417,12 +440,14 @@ margin: 0 0 10px;
   align-items: flex-start;
   justify-content: center;
 }
+
 .adventure h1 {
   font-size: 62px;
   color: #f9f9f9;
   line-height: 1.2;
   margin: 20px 0 10px;
 }
+
 .adventure p {
   font-size: 20px;
   color: #f9f9f9;
@@ -430,6 +455,7 @@ margin: 0 0 10px;
   margin: 0 0 25px;
   width: 35%;
 }
+
 .adventure .shop-btn {
   color: #f9f9f9;
   border: 1px solid #f9f9f9;
@@ -439,13 +465,16 @@ margin: 0 0 10px;
   font-weight: 600;
   letter-spacing: 1px;
 }
+
 .adventure .shop-btn:hover {
   background-color: #f9f9f9;
   color: #333;
 }
+
 .why-acme-section {
   padding: 65px 0;
 }
+
 .why-acme {
   display: flex;
   justify-content: center;
@@ -454,21 +483,25 @@ margin: 0 0 10px;
   width: 50%;
   margin: 0 auto;
 }
+
 .why-acme h2 {
   font-size: 32px;
   color: #333;
   margin: 20px 0 10px;
 }
+
 .why-acme p {
   color: #333;
   margin: 0 0 10px;
   text-align: center;
   line-height: 1.4;
 }
+
 .about-acme-section {
   display: flex;
   justify-content: space-between;
 }
+
 .about-acme {
   width: 22%;
 }
@@ -476,70 +509,83 @@ margin: 0 0 10px;
 .about-acme img {
   display: block;
 }
+
 .about-acme h3 {
   color: #333;
   font: 24px;
   margin: 20px 0 10px;
 }
+
 .about-acme p {
   color: #333;
   margin: 0 0 10px;
 }
+
 .owner-bios {
   display: flex;
   justify-content: space-around;
 }
+
 .owner-bio {
   display: flex;
   width: 35%;
   flex-direction: column;
   align-items: center;
 }
+
 .owner-img img {
   overflow: hidden;
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
+
 .owner-bio h3 {
   color: #333;
   font-size: 24px;
   margin: 20px 0 10px;
 }
+
 .owner-bio p {
   text-align: center;
   color: #333;
   margin: 0 0 10px;
   line-height: 1.5;
 }
+
 .help-section {
-  background-image: url(/images/hello5e84f74f40a146d432ac3598_adam-solomon-WHUDOzd5IYU-unsplash\ \(1\)\ \(1\).jpeg) ;
+  background-image: url(/images/hello5e84f74f40a146d432ac3598_adam-solomon-WHUDOzd5IYU-unsplash\ \(1\)\ \(1\).jpeg);
   background-size: cover;
-  background-position:center;
+  background-position: center;
 }
-.help-btn a{
+
+.help-btn a {
   color: #f9f9f9;
   border: 1px solid #f9f9f9;
   border-radius: 5px;
   padding: 5px 25px;
   font-weight: 700;
 }
+
 .help-btn a:hover {
   background-color: #f9f9f9;
   color: #222;
 }
+
 /* -------------Shop.html css---------------- */
 .page-title {
   padding: 30px 0;
   background-color: #222;
   color: #f9f9f9;
 }
+
 #page-title {
   font-size: 38px;
   line-height: 44px;
   font-weight: bold;
   padding: 10px 0;
 }
+
 #white-tent {
   background-image: url(/images/white-tent-full5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpeg);
   position: relative;
@@ -551,26 +597,28 @@ margin: 0 0 10px;
   flood-color: #f9f9f9;
   text-decoration: none;
 }
+
 .featur-item {
   position: absolute;
   left: auto;
   top: 8%;
   right: 1%;
   bottom: auto;
+  z-index: 1;
   border-radius: 5px;
   background-color: #f9f9f9;
   color: #222;
   margin-right: 10px;
   padding: 5px 20px;
-  z-index: 10;
 }
+
 .featur-name {
   position: absolute;
   left: 1%;
   top: auto;
   right: auto;
   bottom: 20%;
-  margin-top:5px;
+  margin-top: 5px;
   color: #f9f9f9;
 }
 
@@ -578,7 +626,8 @@ margin: 0 0 10px;
   font-size: 24px;
   line-height: 30px;
   margin-top: 20px;
-} 
+}
+
 .featur-price {
   position: absolute;
   left: 1%;
@@ -587,17 +636,20 @@ margin: 0 0 10px;
   bottom: 10%;
   color: #f9f9f9;
 }
+
 .menu {
   width: 20%;
   padding-right: 25px;
 }
+
 .menu h2 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
   line-height: 1.5;
 }
-.category-btn{
+
+.category-btn {
   padding: 5px 25px;
   margin-bottom: 10px;
   border: 1px solid #333;
@@ -605,18 +657,22 @@ margin: 0 0 10px;
   line-height: 1.5;
   display: block;
 }
+
 .menu a {
   color: #333;
   font-size: 18px;
 }
+
 .menu a:hover {
   background-color: #333;
   color: #f9f9f9;
 }
+
 .shop-list {
   width: 80%;
 
 }
+
 .listproducts {
   display: grid;
   grid-auto-columns: 1fr;
@@ -625,10 +681,12 @@ margin: 0 0 10px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
 }
+
 .shop-item {
   width: 100%;
   margin-bottom: 40px;
 }
+
 .giftcard {
   background-image: url(/images/giftcard5e861d123df4d175e80e8beb_acme-gift-card.jpeg);
   min-height: 400px;
@@ -636,13 +694,15 @@ margin: 0 0 10px;
   background-size: cover;
   border-radius: 5px;
 }
-.tin-coffee{
-  background-image:url(/images/tin-coffee.jpeg);
+
+.tin-coffee {
+  background-image: url(/images/tin-coffee.jpeg);
   min-height: 400px;
   background-position: 50% 50%;
   background-size: cover;
   border-radius: 5px;
 }
+
 .blue-canvas {
   background-image: url(/images/canvas-pack.jpeg);
   min-height: 400px;
@@ -650,6 +710,7 @@ margin: 0 0 10px;
   background-size: cover;
   border-radius: 5px;
 }
+
 .green-canvas {
   background-image: url(/images/greenpack5e8542198347409e463f436b_jakob-owens-O_bhy3TnSYU-unsplash.jpeg);
   min-height: 400px;
@@ -657,6 +718,7 @@ margin: 0 0 10px;
   background-size: cover;
   border-radius: 5px;
 }
+
 .white-tent {
   background-image: url(/images/white-tent-full5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpeg);
   min-height: 400px;
@@ -664,10 +726,12 @@ margin: 0 0 10px;
   background-size: cover;
   border-radius: 5px;
 }
+
 .shop-details {
   display: flex;
   justify-content: center;
 }
+
 .shop-item-name {
   color: #333;
   font-size: 20px;
@@ -675,6 +739,7 @@ margin: 0 0 10px;
   text-align: center;
   margin: 10px 0;
 }
+
 .item-price {
   display: flex;
   margin-bottom: 15px;
@@ -682,16 +747,19 @@ margin: 0 0 10px;
   justify-content: center;
   border-bottom: 1px none rgba(34, 34, 34, 0.08);
 }
+
 .shop-item-price {
-  margin-right:10px;
+  margin-right: 10px;
   color: #222;
   font-size: 14px;
   font-weight: 700;
 }
+
 .shop-btn-details {
   display: flex;
   justify-content: center;
 }
+
 .details-btn {
   padding: 5px 25px;
   border: 1px solid #EB5757;
@@ -700,20 +768,21 @@ margin: 0 0 10px;
   font-weight: 700;
   color: #f9f9f9;
 }
-.details-btn:hover{
+
+.details-btn:hover {
   background-color: #333;
   border-color: #333;
-  
+
 }
-/* ---------buy products------------- */
+
+
+/* ------------------------------------------------------- */
 .shopping-page {
   display: flex;
 }
-
 .shopping-page-left {
   width: 40%;
 }
-
 .shopping-page-image {
   background-image: url(/images/giftcard5e861d123df4d175e80e8beb_acme-gift-card.jpeg);
   min-height: 450px;
@@ -721,7 +790,6 @@ margin: 0 0 10px;
   background-position: 50% 50%;
   background-size: cover;
 }
-
 .shopping-page-image-tin {
   background-image: url(/images/tin-coffee.jpeg);
   min-height: 450px;
@@ -729,7 +797,6 @@ margin: 0 0 10px;
   background-position: 50% 50%;
   background-size: cover;
 }
-
 .shopping-page-image-tent {
   background-image: url(/images/white-tent-full5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpeg);
   min-height: 450px;
@@ -737,7 +804,6 @@ margin: 0 0 10px;
   background-position: 50% 50%;
   background-size: cover;
 }
-
 .shopping-page-image-green {
   background-image: url(/images/greenpack5e8542198347409e463f436b_jakob-owens-O_bhy3TnSYU-unsplash.jpeg);
   min-height: 450px;
@@ -745,44 +811,8 @@ margin: 0 0 10px;
   background-position: 50% 50%;
   background-size: cover;
 }
-
 .shopping-page-image-blue {
   background-image: url(/images/canvas-pack.jpeg);
-  min-height: 450px;
-  border-radius: 5px;
-  background-position: 50% 50%;
-  background-size: cover;
-}
-.shopping-page-donate100 {
-  background-image: url(/images/donate1005e85764efc81970066ae6af0_$100\ Donation\ Image.png);
-  min-height: 450px;
-  border-radius: 5px;
-  background-position: 50% 50%;
-  background-size: cover;
-}
-.shopping-page-donate50 {
-  background-image: url(/images/donate505e85764505cae166f5d57854_$50\ Donation\ Image.png);
-  min-height: 450px;
-  border-radius: 5px;
-  background-position: 50% 50%;
-  background-size: cover;
-}
-.shopping-page-donate25 {
-  background-image: url(/images/donate255e85763d28ae07cffd40f416_$25\ Donation\ Image.png);
-  min-height: 450px;
-  border-radius: 5px;
-  background-position: 50% 50%;
-  background-size: cover;
-}
-.shopping-page-donate15 {
-  background-image: url(/images/donate155e8576358a971384fafd6498_$15\ Donation\ Image.png);
-  min-height: 450px;
-  border-radius: 5px;
-  background-position: 50% 50%;
-  background-size: cover;
-}
-.shopping-page-donate5 {
-  background-image: url(/images/donate55e85762c8347402c2e405cb7_$5\ Donation\ Image.png);
   min-height: 450px;
   border-radius: 5px;
   background-position: 50% 50%;
@@ -792,7 +822,6 @@ margin: 0 0 10px;
   width: 60%;
   padding-left: 60px;
 }
-
 .product-headin {
   margin: 0 0 10px 0;
   font-size: 32px;
@@ -800,13 +829,11 @@ margin: 0 0 10px;
   font-weight: bold;
   color: #333;
 }
-
 .price-product {
   display: flex;
   margin-bottom: 10px;
   font-size: 18px;
 }
-
 .pricein {
   margin-right: 10px;
   color: #222;
@@ -814,30 +841,25 @@ margin: 0 0 10px;
   text-align: left;
   font-size: 16px;
 }
-
-label {
+label{
   display: block;
   margin-bottom: 5px;
   font-weight: 400;
   color: #333;
   font-size: 16px;
 }
-
 .add-to-cart {
   display: flex;
   margin-top: 15px;
 }
-
 input {
   border: 1px solid #222;
   border-radius: 5px;
 }
-
 .cart-quantity {
   margin-right: 5px;
   padding: 0 10px;
 }
-
 .add-to-cart-btn {
   color: #EB5757;
   background-color: transparent;
@@ -845,141 +867,19 @@ input {
   border: 1px solid #EB5757;
   border-radius: 5px;
   font-weight: 700;
-  cursor: pointer;
-}
-.add-to-cart-btn:hover {
-  background-color: #EB5757;
-  color: #f9f9f9;
 }
 .richtext h2 {
   color: #333;
   font-size: 32px;
   margin: 20px 0 10px;
 }
-
 .richtext p {
   color: #333;
   font-size: 16px;
   margin-bottom: 10px;
 }
-
 .richtext h4 {
   color: #333;
   font-size: 16px;
   margin: 10px 0;
-}
-/* --------donate.html------------------- */
-.donate-bg {
-  background-image: url(/images/donate5e85758a28ae07433140f0cb_jed-villejo-bEcC0nyIp2g-unsplash\ \(1\)\ \(1\).jpeg);
-  min-height: 550px;
-  padding-top: 151px;
-  padding-bottom: 35px;
-  background-position: 0 25%;
-  background-size: cover;
-  color: #f9f9f9;
-}
-.donate-h1 {
-  font-size: 38px;
-  font-weight: 800;
-  text-align: center;
-}
-.donate-h2 {
-  margin-bottom: 15px;
-  font-size: 30px;
-  text-align: center;
-}
-.donate-paragraph {
-  width: 65%;
-  margin: 0  auto;
-  text-align: center;
-}
-.donate-wrapper {
-  width: 50%;
-  margin: 0 auto;
-  padding: 30px 30px 10px;
-  border: 2px solid #222;
-  border-radius: 5px;
-}
-.donate-link {
-  width: 100%;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  background-color: #EB5757;
-  color: #f9f9f9;
-  text-align: center;
-}
-.donate-link:hover {
-  background-color: #222;
-
-}
-
-.text-block {
-  padding: 15px 0;
-  border: 1px solid none;
-  border-radius: 5px;
-  color: #333;
-  font-size: 24px;
-  font-weight: 800;
-  color: #f9f9f9;
-}
-/* ------contact.html---------------------------- */
-.contact-section {
-  padding: 0;
-  background-color: #222;
-  color: #f9f9f9;
-}
-.contact-hero-bg{
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-}
-.contact {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-}
-.contact-h1 {
-  font-size: 38px;
-  line-height: 44px;
-  margin-top: 55px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-.contact-wrapper {
-  display: flex;
-}
-.contact-block {
-  display: flex;
-  width: 30%;
-  min-height: 350px;
-  margin: 25px 20px;
-  padding: 40px;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-  color: #222;
-  text-align: center;
-  line-height: 1.5;
-}
-.contact-icon {
-  margin-bottom: 30px;
-}
-.contact-image {
-  background-image: linear-gradient(90deg, #222, rgba(34, 34, 34, 0.18) 76%), url(/images/contact5e84f1e1f02ef1408ff221cc_vinicius-amano-4mK2KVuYrDs-unsplash\ \(1\)\ \(1\).jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 550px;
-  width: 45%;
-}
-/* --------contact form------------ */
-.contact-right {
-  width: 70%;
-  padding-left: 20px;
-}
-.r-form {
-  margin: 0 0 15px;
 }

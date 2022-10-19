@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Donate</title>
+  <title>Shop</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-  <div style="position: sticky; width: 100%; top: 0;">
+  <div style="position: sticky; width: 100%; top: 0; z-index:1;">
     <a href="/covid-19.html">
       <div class="topnav">
         <div class="btn">Announcement</div>
@@ -34,49 +34,37 @@
       </div>
     </div>
   </div>
-  <div class="donate-bg">
+  <div class="page-title">
     <div class="container">
-      <div class="donate-h1">Here At Acme Outdoors</div>
-      <div class="donate-h2">every dollar counts</div>
-      <p class="donate-paragraph">Acme Outdoors is more than just a company, we're a community of people who care for
-        one another and for our city. During
-        this time, due to shelter in place orders, only a select few of our staff are able to work. Any donations you
-        make to
-        Acme will help make sure our employees are cared for and can stay safe in these uncertain times.</p>
+      <h1 id="page-title">Donate $15</h1>
     </div>
   </div>
   <div class="products-section">
     <div class="container">
-      <div class="donate-wrapper">
+      <div class="shopping-page">
+        <div class="shopping-page-left">
+          <div class="shopping-page-donate15"></div>
+        </div>
 
-        <div class="donate-link">
-          <a href="/donate-100.html">
-            <div class="text-block">Donate $100</div>
-          </a>
-        </div>
-        <div class="donate-link">
-          <a href="/donate-50.html">
-            <div class="text-block">Donate $50</div>
-          </a>
-        </div>
-        <div class="donate-link">
-          <a href="/donate-25.html">
-            <div class="text-block">Donate $25</div>
-          </a>
-        </div>
-        <div class="donate-link">
-          <a href="/donate-15.html">
-            <div class="text-block">Donate $15</div>
-          </a>
-        </div>
-        <div class="donate-link">
-          <a href="/donate.5.html">
-            <div class="text-block">Donate $5</div>
-          </a>
+        <div class="shopping-page-right">
+          <h2 class="product-headin">Donate $15</h2>
+          <div class="price-product">
+            <div class="pricein">$ 15.00 USD</div>
+          </div>
 
+          <div>
+            <form style="margin-bottom: 15px;">
+              <label for="quantity">Quantity</label>
+              <div class="add-to-cart">
+                <input type="number" id="quantity" name="quantity" min="1" max="99" value="1" class="cart-quantity">
+                <input type="submit" value="Add to Cart" class="add-to-cart-btn">
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
   <div class="footer-section">
     <div class="container">
